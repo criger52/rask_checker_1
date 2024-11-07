@@ -1,0 +1,68 @@
+ .\djvenv\Scripts\activate
+deactivate
+ pip list
+ git log -p
+
+git commit -m "first commit"
+git push https://github.com/criger52/django_test_proj.git
+
+python -m pip
+
+
+
+python -m pip freeze > requirements.txt
+
+cd .\first_test\
+python manage.py runserver 1337
+#   d j a n g o - t e s t - p r o j e c t
+
+
+
+
+
+ntbnotvSjemocP1718209#;FPQWFO]QOKM
+
+
+
+
+
+
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install django
+pip install djangorestframework
+django-admin startproject task_tracker
+cd task_tracker
+python manage.py startapp task
+python manage.py makemigrations
+python manage.py migrate
+pip install -r .\requirements
+
+
+
+
+# добавить к instaledapps
+    'rest_framework',
+    'task',
+
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/criger52/delet.git
+git push -u origin main
+git pull origin main
+
+
+git clone <URL_репозитория>       # Клонирование удалённого репозитория
+cd <название_папки>               # Переход в папку проекта
+# (внести изменения в файлы)
+git status                        # Проверка статуса изменений
+git add .                         # Добавление всех изменённых файлов в индекс
+git commit -m "Описание изменений" # Создание коммита с описанием
+git push origin main              # Отправка коммита в основную ветку на удалённый репозиторий
+
+
